@@ -66,7 +66,7 @@ def previsao(interpreter,image):
              title='Probabilidade de Classes de Doenças em Uvas')
     st.plotly_chart(fig)
 
-
+#
 def main():
     st.set_page_config(
         page_title="Classifica Folhas de Videira",
